@@ -64,7 +64,7 @@ $("img").attr("loading", "lazy");
   
   //code to show update time
   // Set the post time (you can customize this)
-  const postTime = new Date('2025-06-01T14:00:00'); // Example date
+  const postTime = new Date('2025-10-01T14:00:00'); // Example date
 
   function timeAgo(time) {
     const now = new Date();
@@ -96,4 +96,3 @@ $("img").attr("loading", "lazy");
   updateTimestamp(); // Initial call
   setInterval(updateTimestamp, 30000); // Update every 30 seconds
 //end code to show update time
-
